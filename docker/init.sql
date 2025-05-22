@@ -45,7 +45,7 @@ INSERT INTO domaines (DomainName) VALUES
 -- Adding three user account
 
 INSERT INTO comptes (DomainId, password, Email) VALUES
-(1, MD5('Rich.2000','Admin@rich.com'))
+(1, MD5('Rich.2000'),'Admin@rich.com'),
 (1, MD5('leila'), 'leila@rich.com'),
 (2, MD5('boston'), 'boston@arlis.org'),
 (3, MD5('christian'), 'christian@chris.org');
