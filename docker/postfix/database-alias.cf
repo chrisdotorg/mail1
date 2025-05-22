@@ -1,0 +1,5 @@
+user = user
+password = user
+hosts = mysql
+dbname = messagerie
+query = SELECT Destination FROM alias WHERE Source='%s'
